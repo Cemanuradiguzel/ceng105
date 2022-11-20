@@ -17,7 +17,11 @@ int main(void) {
    else if(ort>=70)
       grade = 'C';
    else if(ort>=60)
-      grade = 'D';
+      grade = 'D';,
+   else if(ort>=50)
+      grade= 'F';
+   
+   printf("%c",grade);
    
   
   
