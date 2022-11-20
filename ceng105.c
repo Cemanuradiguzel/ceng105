@@ -10,10 +10,14 @@ int main(void) {
    scanf("%d",&final);
    ort=vize1*0.3+vize2*0.3+final*0.4;
    
-   if(ort=>90)
+   if(ort>=90)
       grade = 'A';
-   else if(ort=>80)
+   else if(ort>=80)
       grade = 'B';
+   else if(ort>=70)
+      grade = 'C';
+   else if(ort>=60)
+      grade = 'D';
    
   
   
