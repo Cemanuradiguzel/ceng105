@@ -17,9 +17,11 @@ int main(void) {
    else if(ort>=75)
       grade = 'CB'
    else if(ort>=70)
-      grade = 'C';
+      grade = 'CC';
+   else if(ort>=65)
+      grade = 'DC';
    else if(ort>=60)
-      grade = 'D';,
+      grade = 'DD';
    else if(ort>=50)
       grade= 'F';
    
