@@ -11,9 +11,11 @@ int main(void) {
    ort=vize1*0.3+vize2*0.3+final*0.4;
    
    if(ort>=90)
-      grade = 'A';
-   else if(ort>=80)
-      grade = 'B';
+      grade = 'AA';
+   else if(ort>=85)
+      grade = 'BA';
+   else if(ort>=75)
+      grade = 'CB'
    else if(ort>=70)
       grade = 'C';
    else if(ort>=60)
